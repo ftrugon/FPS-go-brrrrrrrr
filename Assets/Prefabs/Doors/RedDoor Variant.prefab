@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &6653324953586894774
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 17448715649192294, guid: 319a533b2b3b204499e04cc47a191fe6, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 45766321f889cc9479f9cc515706515c, type: 2}
+    - target: {fileID: 441377722399391794, guid: 319a533b2b3b204499e04cc47a191fe6, type: 3}
+      propertyPath: m_Name
+      value: RedDoor Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 1552853528202536541, guid: 319a533b2b3b204499e04cc47a191fe6, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3665
+      objectReference: {fileID: 0}
+    - target: {fileID: 1843239915594637945, guid: 319a533b2b3b204499e04cc47a191fe6, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5ca3732528e2afa4098e53cf3bfc4964, type: 2}
+    - target: {fileID: 2815382259989113589, guid: 319a533b2b3b204499e04cc47a191fe6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2815382259989113589, guid: 319a533b2b3b204499e04cc47a191fe6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2815382259989113589, guid: 319a533b2b3b204499e04cc47a191fe6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -29.68
+      objectReference: {fileID: 0}
+    - target: {fileID: 2815382259989113589, guid: 319a533b2b3b204499e04cc47a191fe6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2815382259989113589, guid: 319a533b2b3b204499e04cc47a191fe6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2815382259989113589, guid: 319a533b2b3b204499e04cc47a191fe6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2815382259989113589, guid: 319a533b2b3b204499e04cc47a191fe6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2815382259989113589, guid: 319a533b2b3b204499e04cc47a191fe6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2815382259989113589, guid: 319a533b2b3b204499e04cc47a191fe6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2815382259989113589, guid: 319a533b2b3b204499e04cc47a191fe6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4577177820568785832, guid: 319a533b2b3b204499e04cc47a191fe6, type: 3}
+      propertyPath: reqRed
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4577177820568785832, guid: 319a533b2b3b204499e04cc47a191fe6, type: 3}
+      propertyPath: requiresKey
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7172077919876660530, guid: 319a533b2b3b204499e04cc47a191fe6, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3682
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 319a533b2b3b204499e04cc47a191fe6, type: 3}
