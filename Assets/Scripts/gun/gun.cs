@@ -17,7 +17,7 @@ public class gun : MonoBehaviour
     
     //some properties
     private float bulletSpeed = 100 ;
-    public float knockbackForce = 25;
+    private float knockbackForce;
     private float spreadAngle = 15f;
 
     public float timeBetweenShot = 1f;
@@ -40,6 +40,7 @@ public class gun : MonoBehaviour
 
     void Update()
     {
+        knowKnockback();
         myInput();
     }
 
@@ -98,6 +99,23 @@ public class gun : MonoBehaviour
     private void setReadyToTrue()
     {
         readyToShoot = true;
+    }
+
+
+    private void knowKnockback()
+    {
+        RaycastHit hit;
+
+        if (Physics.Raycast(bulletSpawn.position, transform.forward, out hit))
+        {
+            if (hit.transform.tag == "BoostKnockBack" && Vector3.Distance(transform.position, hit.transform.position) < 3)
+            {
+                knockbackForce = 100;
+            }
+        }else
+        {
+            knockbackForce = 25;
+        }
     }
 
     private void applyKnockback()

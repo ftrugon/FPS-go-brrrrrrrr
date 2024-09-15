@@ -7,6 +7,7 @@ TagManager:
   - Enemy
   - EnemyBullet
   - EnemyBigBullet
+  - BoostKnockBack
   layers:
   - Default
   - TransparentFX

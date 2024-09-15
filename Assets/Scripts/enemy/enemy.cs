@@ -6,7 +6,7 @@ public class enemy : MonoBehaviour
 {
 
     public Material enemyAgroedMat;
-    private float hp = 150;
+    public float hp = 150;
     public ParticleSystem hitParticle;
 
 
